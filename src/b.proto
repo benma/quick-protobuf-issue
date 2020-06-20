@@ -1,0 +1,6 @@
+syntax = "proto3";
+import "common.proto";
+
+message B {
+  Common common = 1;
+}
